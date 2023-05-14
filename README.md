@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is a book search engine that allows users to search for books and save them. This application wil be using the MERN stack with React, MongoDB database, and Node.js/Express.js.
+This is a book search engine that allows users to search for books and save them. This application wil be using the MERN stack with GraphQL with MongoDB database, Node.js/Express.js and React.
 
 ## GraphQL
 
