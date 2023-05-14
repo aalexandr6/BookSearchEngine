@@ -1,10 +1,28 @@
 # BookSearchEngine
 
-## Description
+## Project Description
 
 This is a book search engine that allows users to search for books and save them. This application wil be using the MERN stack with React, MongoDB database, and Node.js/Express.js.
 
-```
+## GraphQL
+
+is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your code and data.
+
+## MongoDB Database
+
+is a database that stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. The document model maps to the objects in your application code, making data easy to work with.
+
+## Apollo Server
+
+is a library that helps you connect a GraphQL schema to an HTTP server in Node.js.
+
+## React
+
+is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
+
+## Criteria
+
+```bash
 GIVEN a book search engine
 WHEN I load the search engine
 THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
@@ -33,5 +51,17 @@ THEN I am presented with all of the books I have saved to my account, each featu
 WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button. 
+THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button.
+Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+
+Modify the existing authentication middleware so that it works in the context of a GraphQL API.
+
+Create an Apollo Provider so that requests can communicate with an Apollo Server.
+
+Deploy the application to Heroku.
 ```
+
+## Made by
+
+[aalexandr6](https://github.com/aalexandr6) @ <aalexanderp6@gmail.com>
+With EDX and KU
